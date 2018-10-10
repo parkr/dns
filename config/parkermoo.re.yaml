@@ -1,0 +1,57 @@
+---
+? ''
+: - ttl: 1
+    type: ALIAS
+    value: kondwani.parkermakes.tools.
+  - ttl: 1
+    type: MX
+    value:
+      exchange: mail.parkermoo.re.
+      preference: 10
+  - ttl: 1
+    type: TXT
+    value: keybase-site-verification=RBWd3BpdCNOUWnMZFDz_8ni5c9stWFcdtz2c7k4d5Og
+'4240':
+  ttl: 1
+  type: CNAME
+  value: parkr.github.io.
+gifs:
+  ttl: 1
+  type: CNAME
+  value: parkr.github.io.
+gossip:
+  ttl: 1
+  type: CNAME
+  value: kondwani.parkermakes.tools.
+irc:
+  ttl: 1
+  type: CNAME
+  value: kondwani.parkermakes.tools.
+lib:
+  ttl: 1
+  type: CNAME
+  value: parkr.github.io.
+mail:
+  ttl: 1
+  type: CNAME
+  value: sylvester.parkermakes.tools.
+photo:
+  ttl: 1
+  type: CNAME
+  value: parkermoo.re.
+ping:
+  ttl: 1
+  type: CNAME
+  value: kondwani.parkermakes.tools.
+recipes:
+  ttl: 1
+  type: CNAME
+  value: parkr.github.io.
+webdev:
+  ttl: 1
+  type: CNAME
+  value: parkr.github.io.
+www:
+  ttl: 1
+  type: CNAME
+  value: parkermoo.re.

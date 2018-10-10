@@ -1,0 +1,13 @@
+#!/bin/bash
+
+set -e
+
+brew bundle check || brew bundle
+
+if [ -x "vendor/bin/octodns-sync" ]; then
+  exit 0
+fi
+
+virtualenv vendor
+source vendor/bin/activate
+pip install octodns

@@ -1,0 +1,13 @@
+---
+? ''
+: ttl: 1
+  type: ALIAS
+  value: kondwani.parkermakes.tools.
+'*':
+  ttl: 1
+  type: CNAME
+  value: parkers.photos.
+www:
+  ttl: 1
+  type: CNAME
+  value: parkers.photos.

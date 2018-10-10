@@ -1,0 +1,41 @@
+---
+providers:
+  config:
+    class: octodns.provider.yaml.YamlProvider
+    directory: ./config
+  cloudflare:
+    class: octodns.provider.cloudflare.CloudflareProvider
+    email: env/CLOUDFLARE_EMAIL
+    token: env/CLOUDFLARE_TOKEN
+
+zones:
+  byparker.com.:
+    sources:
+      - config
+    targets:
+      - cloudflare
+  keltermoore.com.:
+    sources:
+      - config
+    targets:
+      - cloudflare
+  parkermakes.tools.:
+    sources:
+      - config
+    targets:
+      - cloudflare
+  parkermoo.re.:
+    sources:
+      - config
+    targets:
+      - cloudflare
+  parkermoore.de.:
+    sources:
+      - config
+    targets:
+      - cloudflare
+  parkers.photos.:
+    sources:
+      - config
+    targets:
+      - cloudflare

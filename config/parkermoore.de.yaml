@@ -1,0 +1,57 @@
+---
+? ''
+: - ttl: 1
+    type: ALIAS
+    value: parkr.github.io.
+  - ttl: 1
+    type: MX
+    values:
+    - exchange: aspmx.l.google.com.
+      preference: 1
+    - exchange: alt1.aspmx.l.google.com.
+      preference: 5
+    - exchange: alt2.aspmx.l.google.com.
+      preference: 5
+    - exchange: aspmx2.googlemail.com.
+      preference: 10
+    - exchange: aspmx3.googlemail.com.
+      preference: 10
+  - ttl: 1
+    type: TXT
+    value: keybase-site-verification=6YW5wF_FcU_0UFY3Gu-Hni0VeIQItJ158eyr-mydzF0
+blog:
+  ttl: 1
+  type: CNAME
+  value: parkr.github.io.
+bookmarks:
+  ttl: 1
+  type: CNAME
+  value: parkr.github.io.
+email.dev:
+  ttl: 1
+  type: CNAME
+  value: mailgun.org.
+jekyll:
+  ttl: 1
+  type: CNAME
+  value: parkermoore.de.
+jekyllrb:
+  ttl: 1
+  type: CNAME
+  value: parkermoore.de.
+plugins.jekyllrb:
+  ttl: 1
+  type: CNAME
+  value: parkr.github.io.
+stuff:
+  ttl: 1
+  type: CNAME
+  value: parkr.github.io.
+webdev:
+  ttl: 1
+  type: CNAME
+  value: parkr.github.io.
+www:
+  ttl: 1
+  type: CNAME
+  value: parkr.github.io.

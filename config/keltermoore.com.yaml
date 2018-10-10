@@ -1,0 +1,9 @@
+---
+? ''
+: ttl: 1
+  type: A
+  value: 185.199.108.153
+www:
+  ttl: 1
+  type: CNAME
+  value: parkr.github.io.
