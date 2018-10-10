@@ -16,4 +16,5 @@ for zone in "${ZONES[@]}"; do
       --b config \
       --zone "$zone." \
       "$@"
+    vendor/bin/yaml2json config/"$zone".yaml | jq -r 'keys | @sh' | xargs -n 1 -t echo
 done
