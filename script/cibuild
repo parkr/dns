@@ -17,3 +17,5 @@ for zone in "${ZONES[@]}"; do
       --zone "$zone." \
       "$@"
 done
+
+script/test
