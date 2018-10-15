@@ -43,10 +43,6 @@ stuff:
   ttl: 1
   type: CNAME
   value: parkr.github.io.
-webdev:
-  ttl: 1
-  type: CNAME
-  value: parkr.github.io.
 www:
   ttl: 1
   type: CNAME
