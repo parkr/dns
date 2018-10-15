@@ -39,10 +39,6 @@ jekyllrb:
   ttl: 1
   type: CNAME
   value: parkermoore.de.
-plugins.jekyllrb:
-  ttl: 1
-  type: CNAME
-  value: parkr.github.io.
 stuff:
   ttl: 1
   type: CNAME
