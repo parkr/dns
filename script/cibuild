@@ -1,21 +1,2 @@
 #!/bin/bash
-
-set -e
-
-if ! [ -x "vendor/bin/octodns-compare" ]; then
-  script/bootstrap
-fi
-
-. script/provider-credentials
-
-for zone in "${ZONES[@]}"; do
-    echo "Processing zone $zone."
-    ./vendor/bin/octodns-compare \
-      --config-file config/production.yaml \
-      --a cloudflare \
-      --b config \
-      --zone "$zone." \
-      "$@"
-done
-
-script/test
+script/validate && script/test
