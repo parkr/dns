@@ -9,6 +9,10 @@ egrep --version
 egrep --help
 echo ; echo
 
+echo "--> Is there docker?"
+docker --version
+echo ; echo
+
 for domain in $(script/list-domains | grep CNAME | grep '\-> parkr.github.io' | awk '{print $2}'); do
   echo "--> Testing $domain"
   echo "---------------------------------"
