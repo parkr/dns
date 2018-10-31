@@ -1,7 +1,5 @@
 #!/bin/bash
 
-test -d "vendor/bin" && exit 0
-
 set -e
 
 virtualenv vendor

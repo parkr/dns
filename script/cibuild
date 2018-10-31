@@ -1,2 +1,5 @@
 #!/bin/bash
-script/validate && script/test
+set -ex
+script/bootstrap
+script/validate
+script/test
