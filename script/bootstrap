@@ -2,11 +2,6 @@
 
 set -e
 
-if [ -x "vendor/bin/octodns-sync" ] && [ -x "vendor/bin/yaml2json" ]; then
-  exit 0
-fi
-
 virtualenv vendor
 source vendor/bin/activate
-vendor/bin/pip install --upgrade pip
-vendor/bin/pip install octodns remarshal
+vendor/bin/pip install --requirement requirements.txt --upgrade

@@ -1,0 +1,8 @@
+sudo: false
+python:
+  - 2.7
+language: python
+install: script/bootstrap
+script: script/cibuild
+notifications:
+  email: false

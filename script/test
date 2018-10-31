@@ -6,6 +6,6 @@ if ! [ -x "vendor/bin/python" ]; then
   script/bootstrap
 fi
 
-for testfile in test/*.py; do
-    (set -x ; vendor/bin/python test/*.py)
+for testfile in test/*.sh; do
+    (set -x ; bash $testfile)
 done
