@@ -1,6 +1,9 @@
 ---
 ? ''
-: - ttl: 1
+: - octodns:
+      cloudflare:
+        proxied: false
+    ttl: 1
     type: ALIAS
     value: parkr.github.io.
   - ttl: 1
@@ -17,30 +20,51 @@
     - keybase-site-verification=PJ3ywix5C5Hnd6Fkt0GzQGKSjbKy_YghlgAGBCf03fM
     - v=spf1 include:_mailcust.gandi.net ?all
 imap:
+  octodns:
+    cloudflare:
+      proxied: false
   ttl: 1
   type: CNAME
   value: access.mail.gandi.net.
 pages:
+  octodns:
+    cloudflare:
+      proxied: false
   ttl: 1
   type: CNAME
   value: kondwani.parkermakes.tools.
 pop:
+  octodns:
+    cloudflare:
+      proxied: false
   ttl: 1
   type: CNAME
   value: access.mail.gandi.net.
 smtp:
+  octodns:
+    cloudflare:
+      proxied: false
   ttl: 1
   type: CNAME
   value: relay.mail.gandi.net.
 stash:
+  octodns:
+    cloudflare:
+      proxied: false
   ttl: 1
   type: CNAME
   value: parkr.github.io.
 webmail:
+  octodns:
+    cloudflare:
+      proxied: false
   ttl: 1
   type: CNAME
   value: webmail.gandi.net.
 www:
+  octodns:
+    cloudflare:
+      proxied: true
   ttl: 1
   type: CNAME
   value: parkr.github.io.

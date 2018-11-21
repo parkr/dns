@@ -1,6 +1,9 @@
 ---
 ? ''
-: - ttl: 1
+: - octodns:
+      cloudflare:
+        proxied: false
+    ttl: 1
     type: ALIAS
     value: parkr.github.io.
   - ttl: 1
@@ -20,30 +23,51 @@
     type: TXT
     value: keybase-site-verification=6YW5wF_FcU_0UFY3Gu-Hni0VeIQItJ158eyr-mydzF0
 blog:
+  octodns:
+    cloudflare:
+      proxied: true
   ttl: 1
   type: CNAME
   value: parkr.github.io.
 bookmarks:
+  octodns:
+    cloudflare:
+      proxied: true
   ttl: 1
   type: CNAME
   value: parkr.github.io.
 email.dev:
+  octodns:
+    cloudflare:
+      proxied: true
   ttl: 1
   type: CNAME
   value: mailgun.org.
 jekyll:
+  octodns:
+    cloudflare:
+      proxied: true
   ttl: 1
   type: CNAME
   value: parkermoore.de.
 jekyllrb:
+  octodns:
+    cloudflare:
+      proxied: true
   ttl: 1
   type: CNAME
   value: parkermoore.de.
 stuff:
+  octodns:
+    cloudflare:
+      proxied: false
   ttl: 1
   type: CNAME
   value: parkr.github.io.
 www:
+  octodns:
+    cloudflare:
+      proxied: false
   ttl: 1
   type: CNAME
   value: parkr.github.io.

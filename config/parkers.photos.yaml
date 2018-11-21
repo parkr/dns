@@ -1,13 +1,22 @@
 ---
 ? ''
-: ttl: 1
+: octodns:
+    cloudflare:
+      proxied: false
+  ttl: 1
   type: ALIAS
   value: kondwani.parkermakes.tools.
 '*':
+  octodns:
+    cloudflare:
+      proxied: false
   ttl: 1
   type: CNAME
   value: parkers.photos.
 www:
+  octodns:
+    cloudflare:
+      proxied: false
   ttl: 1
   type: CNAME
   value: parkers.photos.

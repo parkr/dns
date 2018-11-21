@@ -1,9 +1,15 @@
 ---
 ? ''
-: ttl: 1
+: octodns:
+    cloudflare:
+      proxied: false
+  ttl: 1
   type: A
   value: 172.104.19.218
 www:
+  octodns:
+    cloudflare:
+      proxied: false
   ttl: 1
   type: CNAME
   value: parkr.github.io.
