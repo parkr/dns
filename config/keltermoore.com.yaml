@@ -2,7 +2,7 @@
 ? ''
 : ttl: 1
   type: A
-  value: 185.199.108.153
+  value: 172.104.19.218
 www:
   ttl: 1
   type: CNAME
