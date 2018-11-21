@@ -8,6 +8,9 @@ fi
 
 . script/provider-credentials
 
+
+./vendor/bin/octodns-dump --version
+
 for zone in "${ZONES[@]}"; do
     echo "Processing zone $zone."
     ./vendor/bin/octodns-dump \
