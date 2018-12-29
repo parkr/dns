@@ -2,7 +2,7 @@ sudo: false
 python:
   - 2.7
 language: python
-install: script/bootstrap
+install: which docker
 script: script/cibuild
 notifications:
   email: false
