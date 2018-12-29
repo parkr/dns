@@ -4,7 +4,7 @@ set -e
 
 . script/provider-credentials
 
-for zone in "${ZONES[@]}"; do
+for zone in ${ZONES}; do
     echo "Processing zone $zone."
     octodns dump \
       --config-file "$(pwd)/config/production.yaml" \
