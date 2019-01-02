@@ -1,7 +1,0 @@
-#!/bin/bash
-
-set -e
-
-virtualenv vendor
-source vendor/bin/activate
-vendor/bin/pip install --requirement requirements.txt --upgrade
