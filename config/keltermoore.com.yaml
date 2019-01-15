@@ -9,7 +9,7 @@
 plants:
   octodns:
     cloudflare:
-      proxied: true
+      proxied: false
   ttl: 1
   type: CNAME
   value: kondwani.parkermakes.tools.
