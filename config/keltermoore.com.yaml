@@ -6,6 +6,13 @@
   ttl: 1
   type: A
   value: 185.199.108.153
+plants:
+  octodns:
+    cloudflare:
+      proxied: true
+  ttl: 1
+  type: CNAME
+  value: kondwani.parkermakes.tools.
 www:
   octodns:
     cloudflare:
