@@ -74,6 +74,19 @@ rbspy:
   ttl: 1
   type: CNAME
   value: kondwani.parkermakes.tools.
+sylvester:
+- octodns:
+    cloudflare:
+      proxied: false
+  ttl: 1
+  type: A
+  value: 104.130.13.87
+- octodns:
+    cloudflare:
+      proxied: false
+  ttl: 1
+  type: AAAA
+  value: 2001:4802:7803:104:be76:4eff:fe20:2449
 www:
   octodns:
     cloudflare:
