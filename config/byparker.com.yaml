@@ -26,13 +26,6 @@ imap:
   ttl: 1
   type: CNAME
   value: access.mail.gandi.net.
-pages:
-  octodns:
-    cloudflare:
-      proxied: false
-  ttl: 1
-  type: CNAME
-  value: kondwani.parkermakes.tools.
 pop:
   octodns:
     cloudflare:
