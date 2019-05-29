@@ -78,13 +78,13 @@ sylvester:
 - octodns:
     cloudflare:
       proxied: false
-  ttl: 1
+  ttl: 120
   type: A
   value: 104.130.13.87
 - octodns:
     cloudflare:
       proxied: false
-  ttl: 1
+  ttl: 120
   type: AAAA
   value: 2001:4802:7803:104:be76:4eff:fe20:2449
 www:
