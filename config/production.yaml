@@ -34,6 +34,11 @@ zones:
       - config
     targets:
       - cloudflare
+  parkermoore.site.:
+    sources:
+      - config
+    targets:
+      - cloudflare
   parkers.photos.:
     sources:
       - config
