@@ -4,7 +4,7 @@ workflow "Test on push" {
 }
 
 action "octodns test" {
-  uses = "docker://parkr/octodns:v0.9.4"
+  uses = "docker://parkr/octodns:v0.9.5"
   args = "octodns-sync --config-file ./config/production.yaml"
   secrets = ["CLOUDFLARE_TOKEN", "CLOUDFLARE_EMAIL"]
 }
@@ -15,7 +15,7 @@ workflow "Deploy on push" {
 }
 
 action "octodns sync" {
-  uses = "docker://parkr/octodns:v0.9.4"
+  uses = "docker://parkr/octodns:v0.9.5"
   args = "octodns-sync --config-file ./config/production.yaml --doit"
   secrets = ["CLOUDFLARE_TOKEN", "CLOUDFLARE_EMAIL"]
   needs = ["On branch master"]
