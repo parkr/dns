@@ -30,6 +30,13 @@ email:
   ttl: 1
   type: CNAME
   value: mailgun.org.
+fluffball:
+- octodns:
+    cloudflare:
+      proxied: false
+  ttl: 1
+  type: A
+  value: 108.44.153.67
 kagiso:
 - octodns:
     cloudflare:
