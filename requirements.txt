@@ -1,2 +1,2 @@
-octodns===0.9.3
+octodns===0.9.9
 pip===18.1
