@@ -3,37 +3,31 @@
 : - octodns:
       cloudflare:
         proxied: true
-    ttl: 1
     type: A
     value: 217.70.184.38
-  - ttl: 1
-    type: MX
+  - type: MX
     values:
     - exchange: spool.mail.gandi.net.
       preference: 10
     - exchange: fb.mail.gandi.net.
       preference: 50
-  - ttl: 1
-    type: TXT
+  - type: TXT
     value: v=spf1 include:_mailcust.gandi.net ?all
 blog:
   octodns:
     cloudflare:
       proxied: true
-  ttl: 1
   type: CNAME
   value: blogs.vip.gandi.net.
 webmail:
   octodns:
     cloudflare:
       proxied: false
-  ttl: 1
   type: CNAME
   value: webmail.gandi.net.
 www:
   octodns:
     cloudflare:
       proxied: true
-  ttl: 1
   type: CNAME
   value: webredir.vip.gandi.net.

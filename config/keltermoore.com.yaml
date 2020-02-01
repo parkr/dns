@@ -3,20 +3,17 @@
 : octodns:
     cloudflare:
       proxied: true
-  ttl: 1
   type: A
   value: 185.199.108.153
 plants:
   octodns:
     cloudflare:
       proxied: false
-  ttl: 120
   type: CNAME
   value: kondwani.parkermakes.tools.
 www:
   octodns:
     cloudflare:
       proxied: false
-  ttl: 1
   type: CNAME
   value: parkr.github.io.

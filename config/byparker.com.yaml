@@ -3,18 +3,15 @@
 : - octodns:
       cloudflare:
         proxied: false
-    ttl: 1
     type: ALIAS
     value: parkr.github.io.
-  - ttl: 1
-    type: MX
+  - type: MX
     values:
     - exchange: spool.mail.gandi.net.
       preference: 10
     - exchange: fb.mail.gandi.net.
       preference: 50
-  - ttl: 1
-    type: TXT
+  - type: TXT
     values:
     - google-site-verification=pNnerRpbLyMgcRJQRxWsCcW0vHTt3vEmcbp7Jj5JbJo
     - keybase-site-verification=PJ3ywix5C5Hnd6Fkt0GzQGKSjbKy_YghlgAGBCf03fM
@@ -23,41 +20,35 @@ imap:
   octodns:
     cloudflare:
       proxied: false
-  ttl: 1
   type: CNAME
   value: access.mail.gandi.net.
 pop:
   octodns:
     cloudflare:
       proxied: false
-  ttl: 1
   type: CNAME
   value: access.mail.gandi.net.
 smtp:
   octodns:
     cloudflare:
       proxied: false
-  ttl: 1
   type: CNAME
   value: relay.mail.gandi.net.
 stash:
   octodns:
     cloudflare:
       proxied: false
-  ttl: 1
   type: CNAME
   value: parkr.github.io.
 webmail:
   octodns:
     cloudflare:
       proxied: false
-  ttl: 1
   type: CNAME
   value: webmail.gandi.net.
 www:
   octodns:
     cloudflare:
       proxied: true
-  ttl: 1
   type: CNAME
   value: parkr.github.io.

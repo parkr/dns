@@ -11,7 +11,6 @@ A record:
 
 ```yaml
 www:
-  ttl: 600
   type: CNAME
   value: parkr.github.io.
 ```
