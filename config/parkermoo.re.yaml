@@ -3,91 +3,77 @@
 : - octodns:
       cloudflare:
         proxied: false
-    ttl: 1
     type: ALIAS
     value: kondwani.parkermakes.tools.
-  - ttl: 1
-    type: MX
+  - type: MX
     value:
       exchange: mail.parkermoo.re.
       preference: 10
-  - ttl: 1
-    type: TXT
+  - type: TXT
     value: keybase-site-verification=RBWd3BpdCNOUWnMZFDz_8ni5c9stWFcdtz2c7k4d5Og
 '4240':
   octodns:
     cloudflare:
       proxied: true
-  ttl: 1
   type: CNAME
   value: parkr.github.io.
 gifs:
   octodns:
     cloudflare:
       proxied: true
-  ttl: 1
   type: CNAME
   value: parkr.github.io.
 gossip:
   octodns:
     cloudflare:
       proxied: false
-  ttl: 1
   type: CNAME
   value: kondwani.parkermakes.tools.
 irc:
   octodns:
     cloudflare:
       proxied: false
-  ttl: 1
   type: CNAME
   value: kondwani.parkermakes.tools.
 lib:
   octodns:
     cloudflare:
       proxied: false
-  ttl: 1
   type: CNAME
   value: parkr.github.io.
 mail:
   octodns:
     cloudflare:
       proxied: false
-  ttl: 1
   type: CNAME
   value: sylvester.parkermakes.tools.
 photo:
   octodns:
     cloudflare:
       proxied: false
-  ttl: 1
   type: CNAME
   value: parkermoo.re.
 ping:
   octodns:
     cloudflare:
       proxied: false
-  ttl: 1
   type: CNAME
   value: kondwani.parkermakes.tools.
 recipes:
   octodns:
     cloudflare:
       proxied: false
-  ttl: 1
   type: CNAME
   value: parkr.github.io.
 webdev:
   octodns:
     cloudflare:
       proxied: false
-  ttl: 1
   type: CNAME
   value: parkr.github.io.
 www:
   octodns:
     cloudflare:
       proxied: true
-  ttl: 1
   type: CNAME
   value: parkermoo.re.
