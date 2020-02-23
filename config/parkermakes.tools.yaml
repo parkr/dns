@@ -19,6 +19,9 @@
       proxied: false
   type: CNAME
   value: parkermakes.tools.
+_acme-challenge.baymax:
+  type: TXT
+  value: TpGzb4WdgOEmz_AY9UbPdH5dYUvYsYXrc5usWcTKVoA
 baymax:
   octodns:
     cloudflare:
