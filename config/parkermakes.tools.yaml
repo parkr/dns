@@ -46,6 +46,12 @@ fluffball:
       proxied: false
   type: A
   value: 108.44.153.67
+humans:
+  octodns:
+    cloudflare:
+      proxied: false
+  type: CNAME
+  value: baymax.parkermakes.tools.
 kagiso:
 - octodns:
     cloudflare:
