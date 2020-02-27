@@ -1,0 +1,19 @@
+---
+? ''
+: octodns:
+    cloudflare:
+      proxied: false
+  type: ALIAS
+  value: kondwani.parkermakes.tools.
+'*':
+  octodns:
+    cloudflare:
+      proxied: false
+  type: CNAME
+  value: parker.codes.
+www:
+  octodns:
+    cloudflare:
+      proxied: false
+  type: CNAME
+  value: parker.codes.
