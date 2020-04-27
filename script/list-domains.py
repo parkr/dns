@@ -10,9 +10,9 @@ from octodns.record import CnameRecord, AliasRecord
 
 def print_record(record):
     if isinstance(record, CnameRecord) or isinstance(record, AliasRecord):
-        print "{} {} -> {}".format(record._type, record.fqdn[0:-1], record.value[0:-1])
+        print("{} {} -> {}".format(record._type, record.fqdn[0:-1], record.value[0:-1]))
     else:
-        print "{} {} -> {}".format(record._type, record.fqdn[0:-1], record.values)
+        print("{} {} -> {}".format(record._type, record.fqdn[0:-1], record.values))
     # else:
     #     attrs = vars(record)
     #     print ', '.join("%s: %s" % item for item in attrs.items())
