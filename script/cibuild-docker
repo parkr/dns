@@ -7,5 +7,5 @@ set -x
 docker run --rm \
   -w "$cwd" \
   -v "$cwd":"$cwd" \
-  python:2.7 \
+  python:3-slim \
   script/cibuild
