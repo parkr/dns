@@ -8,6 +8,9 @@
 _github-challenge-keltermoore:
   type: TXT
   value: 11ef3f321f
+_github-challenge-keltermoore.www:
+  type: TXT
+  value: 7120ae09f9
 plants:
   octodns:
     cloudflare:
