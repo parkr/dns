@@ -5,6 +5,9 @@
       proxied: true
   type: A
   value: 185.199.108.153
+_github-challenge-keltermoore:
+  type: TXT
+  value: 11ef3f321f
 plants:
   octodns:
     cloudflare:
