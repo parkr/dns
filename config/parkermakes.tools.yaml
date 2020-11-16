@@ -48,7 +48,7 @@ fluffball:
     cloudflare:
       proxied: false
   type: A
-  value: 173.72.147.68
+  value: 71.171.90.59
 humans:
   octodns:
     cloudflare:
