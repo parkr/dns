@@ -16,7 +16,7 @@ plants:
     cloudflare:
       proxied: false
   type: CNAME
-  value: kondwani.parkermakes.tools.
+  value: kruffudd.parkermakes.tools.
 www:
   octodns:
     cloudflare:
