@@ -109,6 +109,12 @@ rbspy:
       proxied: false
   type: CNAME
   value: kondwani.parkermakes.tools.
+sink2:
+  octodns:
+    cloudflare:
+      proxied: false
+  type: CNAME
+  value: kruffudd.parkermakes.tools.
 sylvester:
 - octodns:
     cloudflare:
