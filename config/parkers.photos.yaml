@@ -4,13 +4,13 @@
     cloudflare:
       proxied: false
   type: ALIAS
-  value: kondwani.parkermakes.tools.
+  value: parkr.github.io.
 '*':
   octodns:
     cloudflare:
       proxied: false
   type: CNAME
-  value: parkers.photos.
+  value: kondwani.parkermakes.tools.
 www:
   octodns:
     cloudflare:
