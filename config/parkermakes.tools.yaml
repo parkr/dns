@@ -115,17 +115,6 @@ sink2:
       proxied: false
   type: CNAME
   value: kruffudd.parkermakes.tools.
-sylvester:
-- octodns:
-    cloudflare:
-      proxied: false
-  type: A
-  value: 104.130.13.87
-- octodns:
-    cloudflare:
-      proxied: false
-  type: AAAA
-  value: 2001:4802:7803:104:be76:4eff:fe20:2449
 www:
   octodns:
     cloudflare:
