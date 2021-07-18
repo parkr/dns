@@ -28,13 +28,13 @@ gossip:
     cloudflare:
       proxied: false
   type: CNAME
-  value: kondwani.parkermakes.tools.
+  value: kruffudd.parkermakes.tools.
 irc:
   octodns:
     cloudflare:
       proxied: false
   type: CNAME
-  value: kondwani.parkermakes.tools.
+  value: kruffudd.parkermakes.tools.
 lib:
   octodns:
     cloudflare:
