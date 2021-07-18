@@ -41,12 +41,6 @@ lib:
       proxied: false
   type: CNAME
   value: parkr.github.io.
-mail:
-  octodns:
-    cloudflare:
-      proxied: false
-  type: CNAME
-  value: sylvester.parkermakes.tools.
 photo:
   octodns:
     cloudflare:
