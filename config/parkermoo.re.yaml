@@ -58,7 +58,7 @@ ping:
     cloudflare:
       proxied: false
   type: CNAME
-  value: kondwani.parkermakes.tools.
+  value: kruffudd.parkermakes.tools.
 recipes:
   octodns:
     cloudflare:
