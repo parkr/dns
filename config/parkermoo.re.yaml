@@ -14,7 +14,7 @@
 '4240':
   octodns:
     cloudflare:
-      proxied: true
+      proxied: false
   type: CNAME
   value: parkr.github.io.
 gifs:
