@@ -10,7 +10,7 @@ jobs:
     name: octodns sync
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@v2
     - name: octodns sync
       uses: docker://parkr/octodns:v0.9.10
       env:
