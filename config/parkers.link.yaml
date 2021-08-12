@@ -8,6 +8,6 @@
 www:
   octodns:
     cloudflare:
-      proxied: false
+      proxied: true
   type: CNAME
   value: parkers.link.
