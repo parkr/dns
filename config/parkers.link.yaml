@@ -10,4 +10,4 @@ www:
     cloudflare:
       proxied: false
   type: CNAME
-  value: parkers.link
+  value: parkers.link.
