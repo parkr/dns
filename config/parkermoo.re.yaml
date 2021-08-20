@@ -5,12 +5,11 @@
         proxied: false
     type: ALIAS
     value: kondwani.parkermakes.tools.
-  - type: MX
-    value:
-      exchange: mail.parkermoo.re.
-      preference: 10
   - type: TXT
-    value: keybase-site-verification=RBWd3BpdCNOUWnMZFDz_8ni5c9stWFcdtz2c7k4d5Og
+    values:
+      - keybase-site-verification=RBWd3BpdCNOUWnMZFDz_8ni5c9stWFcdtz2c7k4d5Og
+      - v=spf1 -all # SPF record to block all mail
+      - v=DMARC1; p=reject; adkim=s; aspf=s; # DMARC policy to block all mail
 '4240':
   octodns:
     cloudflare:

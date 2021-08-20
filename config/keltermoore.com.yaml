@@ -1,10 +1,14 @@
 ---
 ? ''
-: octodns:
-    cloudflare:
-      proxied: true
-  type: A
-  value: 185.199.108.153
+: - octodns:
+      cloudflare:
+        proxied: true
+    type: A
+    value: 185.199.108.153
+  - type: TXT
+    values:
+      - v=spf1 -all # SPF record to block all mail
+      - v=DMARC1; p=reject; adkim=s; aspf=s; # DMARC policy to block all mail
 _github-challenge-keltermoore:
   type: TXT
   value: 11ef3f321f
