@@ -8,7 +8,7 @@
   - type: TXT
     values:
       - v=spf1 -all # SPF record to block all mail
-      - v=DMARC1; p=reject; adkim=s; aspf=s; # DMARC policy to block all mail
+      - v=DMARC1\; p=reject\; adkim=s\; aspf=s\; # DMARC policy to block all mail
 www:
   octodns:
     cloudflare:
