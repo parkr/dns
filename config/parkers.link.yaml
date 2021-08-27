@@ -2,9 +2,9 @@
 ? ''
 : - octodns:
       cloudflare:
-        proxied: true
+        proxied: false
     type: ALIAS
-    value: kondwani.parkermakes.tools.
+    value: parkr.github.io.
 www:
   octodns:
     cloudflare:
