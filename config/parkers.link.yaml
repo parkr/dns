@@ -8,6 +8,6 @@
 www:
   octodns:
     cloudflare:
-      proxied: true
+      proxied: false
   type: CNAME
-  value: parkers.link.
+  value: parkr.github.io.
