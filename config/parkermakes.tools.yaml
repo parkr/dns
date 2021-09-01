@@ -103,12 +103,6 @@ radar:
       proxied: false
   type: CNAME
   value: kruffudd.parkermakes.tools.
-rbspy:
-  octodns:
-    cloudflare:
-      proxied: false
-  type: CNAME
-  value: kondwani.parkermakes.tools.
 sink2:
   octodns:
     cloudflare:
