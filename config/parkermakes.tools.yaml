@@ -2,7 +2,7 @@
 ? ''
 : - octodns:
       cloudflare:
-        proxied: true
+        proxied: false
     type: ALIAS
     value: kruffudd.parkermakes.tools.
   - type: MX
