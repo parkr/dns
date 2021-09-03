@@ -4,7 +4,7 @@
       cloudflare:
         proxied: false
     type: ALIAS
-    value: kondwani.parkermakes.tools.
+    value: kruffudd.parkermakes.tools.
   - type: MX
     value:
       exchange: mail.parkermoo.re.
