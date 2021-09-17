@@ -112,6 +112,6 @@ sink2:
 www:
   octodns:
     cloudflare:
-      proxied: true
+      proxied: false
   type: CNAME
   value: parkermakes.tools.
