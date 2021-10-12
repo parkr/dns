@@ -31,3 +31,9 @@ www:
       proxied: true
   type: CNAME
   value: webredir.vip.gandi.net.
+zzz:
+  octodns:
+    cloudflare:
+      proxied: false
+  type: A
+  value: 1.1.1.1
