@@ -7,7 +7,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: octodns test
-      uses: docker://ghcr.io/parkr/octodns:v0.9.14
+      uses: docker://ghcr.io/parkr/octodns:2022.01-beta
       env:
         CLOUDFLARE_EMAIL: ${{ secrets.CLOUDFLARE_EMAIL }}
         CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
