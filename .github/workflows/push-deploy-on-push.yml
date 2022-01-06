@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: octodns sync
-      uses: docker://ghcr.io/parkr/octodns:2022.01-beta
+      uses: docker://ghcr.io/parkr/octodns:2022.01-beta2
       env:
         CLOUDFLARE_EMAIL: ${{ secrets.CLOUDFLARE_EMAIL }}
         CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
