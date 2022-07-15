@@ -22,12 +22,9 @@
     cloudflare:
       proxied: false
   type: TXT
-  values: google-site-verification=hUFye_0JH1qubHRNBkn9pUrGFMCTB71ytjROHvIEIsk
-- octodns:
-    cloudflare:
-      proxied: false
-  type: TXT
-  values: v=spf1 include:_spf.google.com -all
+  values: 
+  - google-site-verification=hUFye_0JH1qubHRNBkn9pUrGFMCTB71ytjROHvIEIsk
+  - v=spf1 include:_spf.google.com -all
 '*':
   octodns:
     cloudflare:
