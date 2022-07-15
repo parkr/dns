@@ -1,10 +1,16 @@
 ---
 ? ''
-: octodns:
+: 
+- octodns:
     cloudflare:
       proxied: false
   type: ALIAS
   value: kruffudd.parkermakes.tools.
+- octodns:
+    cloudflare:
+      proxied: false
+  type: TXT
+  value: google-site-verification=hUFye_0JH1qubHRNBkn9pUrGFMCTB71ytjROHvIEIsk
 '*':
   octodns:
     cloudflare:
