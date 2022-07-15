@@ -1,10 +1,30 @@
 ---
 ? ''
-: octodns:
+: 
+- octodns:
     cloudflare:
       proxied: false
   type: ALIAS
   value: kruffudd.parkermakes.tools.
+- type: MX
+  values:
+    - exchange: ASPMX.L.GOOGLE.COM.
+      preference: 1
+    - exchange: ALT1.ASPMX.L.GOOGLE.COM.
+      preference: 5
+    - exchange: ALT2.ASPMX.L.GOOGLE.COM.
+      preference: 5
+    - exchange: ALT3.ASPMX.L.GOOGLE.COM.
+      preference: 10
+    - exchange: ALT4.ASPMX.L.GOOGLE.COM.
+      preference: 10
+- octodns:
+    cloudflare:
+      proxied: false
+  type: TXT
+  values: 
+  - google-site-verification=hUFye_0JH1qubHRNBkn9pUrGFMCTB71ytjROHvIEIsk
+  - v=spf1 include:_spf.google.com -all
 '*':
   octodns:
     cloudflare:
