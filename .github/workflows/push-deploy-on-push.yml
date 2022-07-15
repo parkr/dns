@@ -10,7 +10,7 @@ jobs:
     name: octodns sync
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: octodns sync
       uses: docker://ghcr.io/parkr/octodns:2022.01-beta2
       env:
