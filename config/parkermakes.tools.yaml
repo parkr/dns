@@ -72,17 +72,6 @@ kagiso:
       proxied: false
   type: AAAA
   value: 2600:3c00::f03c:91ff:fefa:5414
-kondwani:
-- octodns:
-    cloudflare:
-      proxied: false
-  type: A
-  value: 172.104.19.218
-- octodns:
-    cloudflare:
-      proxied: false
-  type: AAAA
-  value: 2600:3c03::f03c:91ff:fe38:7d43
 kruffudd:
 - octodns:
     cloudflare:
@@ -97,6 +86,17 @@ kruffudd:
 mailo._domainkey:
   type: TXT
   value: k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDJn9zyOB7wJpYT9INfMOBTv9jys6F6dEFz7yLf9uWiRZE3hPdTkf5xbH+CE9ofKyWAvS7oVl/0Ic7xN27ui4F8aUrTH4IGuqO3qpaGP4Ev0braWfQAlk69nJC/wsto6uFS5pZoWgEhJfP3gxs2OXKunFR17s8IWUYfAoBsJ14ACwIDAQAB
+meriadoc:
+- octodns:
+    cloudflare:
+      proxied: false
+  type: A
+  value: 45.79.84.168
+- octodns:
+    cloudflare:
+      proxied: false
+  type: AAAA
+  value: 2600:3c01::f03c:93ff:feb6:d153
 pie:
   octodns:
     cloudflare:
