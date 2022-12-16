@@ -34,7 +34,7 @@ irc:
     cloudflare:
       proxied: false
   type: CNAME
-  value: gossip.parkermoo.re
+  value: gossip.parkermoo.re.
 lib:
   octodns:
     cloudflare:
