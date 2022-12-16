@@ -31,12 +31,6 @@ baymax:
       proxied: false
   type: A
   value: 10.0.1.14
-baymax-ts:
-  octodns:
-    cloudflare:
-      proxied: false
-  type: A
-  value: 100.112.113.44
 delwyn:
   octodns:
     cloudflare:
@@ -49,29 +43,12 @@ email:
       proxied: true
   type: CNAME
   value: mailgun.org.
-fluffball:
-- octodns:
-    cloudflare:
-      proxied: false
-  type: A
-  value: 98.248.224.111
 humans:
   octodns:
     cloudflare:
       proxied: false
   type: CNAME
   value: baymax-ts.parkermakes.tools.
-kagiso:
-- octodns:
-    cloudflare:
-      proxied: false
-  type: A
-  value: 104.237.132.31
-- octodns:
-    cloudflare:
-      proxied: false
-  type: AAAA
-  value: 2600:3c00::f03c:91ff:fefa:5414
 kruffudd:
 - octodns:
     cloudflare:
