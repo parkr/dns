@@ -85,7 +85,7 @@ radar:
     cloudflare:
       proxied: false
   type: CNAME
-  value: kruffudd.parkermakes.tools.
+  value: meriadoc.parkermakes.tools.
 sink2:
   octodns:
     cloudflare:
