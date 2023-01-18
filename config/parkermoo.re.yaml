@@ -20,7 +20,7 @@
 gifs:
   octodns:
     cloudflare:
-      proxied: true
+      proxied: false
   type: CNAME
   value: parkr.github.io.
 gossip:
