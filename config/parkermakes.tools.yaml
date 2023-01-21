@@ -48,7 +48,7 @@ humans:
     cloudflare:
       proxied: false
   type: CNAME
-  value: baymax-ts.parkermakes.tools.
+  value: baymax.parkermakes.tools.
 kruffudd:
 - octodns:
     cloudflare:
