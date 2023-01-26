@@ -24,7 +24,7 @@ _acme-challenge.baymax:
   value: TpGzb4WdgOEmz_AY9UbPdH5dYUvYsYXrc5usWcTKVoA
 _acme-challenge.humans:
   type: TXT
-  value: TnRjxBNNA6g4HZ0n5-A0mXZ-_pS-LU6Z2c7Zwx1VQsM
+  value: 7nV2AmdiUj9N1A6HCB0BLKpX7zb2oClf0ttqgFi_e-8
 baymax:
   octodns:
     cloudflare:
