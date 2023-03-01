@@ -1,0 +1,11 @@
+---
+on: push
+name: Ensure all domains resolve
+jobs:
+  resolve:
+    name: no 404s
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: script/ensure-no-404s
+      run: script/ensure-no-404s
