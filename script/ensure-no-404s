@@ -1,0 +1,5 @@
+#!/bin/bash
+
+script/list-domains.py
+
+# Iterate through each domain and ensure it returns a 200. Any 404, especially on GitHub Pages, should cause a failure.
