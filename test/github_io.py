@@ -1,9 +1,6 @@
-import sys
-
 import requests
 
 from octodns.provider.yaml import YamlProvider
-from octodns.yaml import safe_load
 from octodns.manager import Manager
 from octodns.zone import Zone
 from octodns.record import CnameRecord
@@ -35,7 +32,7 @@ def main(config_file):
         for source in sources:
             if isinstance(source, YamlProvider):
                 source.populate(zone)
-        
+
         pages_sites = [record for record in zone.records if isinstance(record, CnameRecord) and record.value.endswith("github.io.")]
         for record in pages_sites:
             validate_github_pages_site(record)
