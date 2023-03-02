@@ -1,5 +1,10 @@
 #!/bin/bash
 
-script/list-domains.py
+set -e
 
-# Iterate through each domain and ensure it returns a 200. Any 404, especially on GitHub Pages, should cause a failure.
+python3 script/list-domains.py | \
+  egrep '^(CNAME|ALIAS|A)' | egrep -v '10\.0\.1' | \
+  awk '{print $2}' | sort | uniq | \
+  egrep -v '^(imap|smtp|pop|webmail|\*)\.' | \
+  xargs -n 1 -t -I{} \
+    curl --fail --no-progress-meter --output /dev/null https://{}
