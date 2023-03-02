@@ -11,12 +11,6 @@ _github-challenge-keltermoore:
 _github-challenge-keltermoore.www:
   type: TXT
   value: 7120ae09f9
-plants:
-  octodns:
-    cloudflare:
-      proxied: false
-  type: CNAME
-  value: kruffudd.parkermakes.tools.
 www:
   octodns:
     cloudflare:

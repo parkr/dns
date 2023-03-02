@@ -37,18 +37,6 @@ email.dev:
       proxied: true
   type: CNAME
   value: mailgun.org.
-jekyll:
-  octodns:
-    cloudflare:
-      proxied: true
-  type: CNAME
-  value: parkermoore.de.
-jekyllrb:
-  octodns:
-    cloudflare:
-      proxied: true
-  type: CNAME
-  value: parkermoore.de.
 stuff:
   octodns:
     cloudflare:
