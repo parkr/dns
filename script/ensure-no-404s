@@ -3,8 +3,8 @@
 set -e
 
 python3 script/list-domains.py | \
-  egrep '^(CNAME|ALIAS|A)' | egrep -v '10\.0\.1' | \
+  egrep '^(CNAME|ALIAS|A)' | egrep -v '10\.0\.1' | egrep -v '(baymax|delwyn)\.' | \
   awk '{print $2}' | sort | uniq | \
-  egrep -v '^(imap|smtp|pop|webmail|\*)\.' | \
+  egrep -v '^(imap|smtp|pop|webmail|email|\*)\.' | \
   xargs -n 1 -t -I{} \
     curl --fail --no-progress-meter --output /dev/null https://{}
