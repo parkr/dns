@@ -19,4 +19,11 @@ updates:
   reviewers:
     - parkr
   open-pull-requests-limit: 99
-  
+- package-ecosystem: docker
+  directory: /.github/actions/octodns-cloudflare
+  schedule:
+    interval: daily
+    time: "11:00"
+  reviewers:
+    - parkr
+  open-pull-requests-limit: 99
