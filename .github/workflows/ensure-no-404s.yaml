@@ -11,5 +11,6 @@ jobs:
       with:
         python-version: '3.10'
         cache: 'pip' # caching pip dependencies
+    - run: pip install -r requirements.txt
     - name: script/ensure-no-404s
       run: script/ensure-no-404s
