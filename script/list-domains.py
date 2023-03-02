@@ -1,9 +1,6 @@
-#!/usr/local/bin/python
-
-import sys
+#!/usr/local/bin/pythonsys
 
 from octodns.provider.yaml import YamlProvider
-from octodns.yaml import safe_load
 from octodns.manager import Manager
 from octodns.zone import Zone
 from octodns.record import CnameRecord, AliasRecord
