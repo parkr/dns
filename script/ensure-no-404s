@@ -1,6 +1,7 @@
 #!/bin/bash
 
 set -e
+set -o pipefail
 
 python3 script/list-domains.py | \
   egrep '^(CNAME|ALIAS|A)' | egrep -v '10\.0\.1' | egrep -v '(baymax|delwyn)\.' | \
