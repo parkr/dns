@@ -20,8 +20,9 @@
   type: CNAME
   value: parkermakes.tools.
 _acme-challenge.humans:
+  ttl: 10
   type: TXT
-  value: d6HLK5-baLDY4MhMhHfjJ6IaORlQHmf-6hkrrk8iOvo
+  value: 9B-0FGKtFfeYMSG_0gMpG2pblyCOM8NQMKCsWXEO5Xg
 baymax:
   octodns:
     cloudflare:
