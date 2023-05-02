@@ -4,7 +4,7 @@
       cloudflare:
         proxied: false
     type: ALIAS
-    value: meriadoc.parkermakes.tools.
+    value: beavan.parkermakes.tools.
   - type: MX
     values:
     - exchange: mxa.mailgun.org.
@@ -77,7 +77,7 @@ radar:
     cloudflare:
       proxied: false
   type: CNAME
-  value: meriadoc.parkermakes.tools.
+  value: beavan.parkermakes.tools.
 www:
   octodns:
     cloudflare:

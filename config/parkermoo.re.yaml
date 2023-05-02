@@ -4,7 +4,7 @@
       cloudflare:
         proxied: false
     type: ALIAS
-    value: meriadoc.parkermakes.tools.
+    value: beavan.parkermakes.tools.
   - type: MX
     value:
       exchange: mail.parkermoo.re.
@@ -28,7 +28,7 @@ gossip:
     cloudflare:
       proxied: false
   type: CNAME
-  value: meriadoc.parkermakes.tools.
+  value: beavan.parkermakes.tools.
 irc:
   octodns:
     cloudflare:
@@ -46,7 +46,7 @@ ping:
     cloudflare:
       proxied: false
   type: CNAME
-  value: meriadoc.parkermakes.tools.
+  value: beavan.parkermakes.tools.
 recipes:
   octodns:
     cloudflare:
