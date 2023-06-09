@@ -1,1 +1,1 @@
-FROM octodns/cloudflare:2023.05
+FROM octodns/cloudflare:2023.06
