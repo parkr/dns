@@ -71,6 +71,12 @@ radar:
       proxied: false
   type: CNAME
   value: beavan.parkermakes.tools.
+sink5:
+  octodns:
+    cloudflare:
+      proxied: false
+  type: CNAME
+  value: 10.0.1.53.
 www:
   octodns:
     cloudflare:
