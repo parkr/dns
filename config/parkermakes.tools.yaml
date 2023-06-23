@@ -23,6 +23,10 @@ _acme-challenge.humans:
   ttl: 10
   type: TXT
   value: 9B-0FGKtFfeYMSG_0gMpG2pblyCOM8NQMKCsWXEO5Xg
+_acme-challenge.sink5:
+  ttl: 10
+  type: TXT
+  value: 9iEQc56_A1EhEKRz8xsl1P9LN_U73ZBxFQ33-PUizDo
 baymax:
   octodns:
     cloudflare:
