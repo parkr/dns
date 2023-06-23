@@ -76,7 +76,7 @@ sink5:
     cloudflare:
       proxied: false
   type: CNAME
-  value: 10.0.1.53
+  value: 10.0.1.53.
 www:
   octodns:
     cloudflare:
