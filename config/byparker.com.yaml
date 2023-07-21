@@ -14,6 +14,7 @@
   - type: TXT
     values:
     - google-site-verification=pNnerRpbLyMgcRJQRxWsCcW0vHTt3vEmcbp7Jj5JbJo
+    - google-site-verification=XoM1A19urMr-_oYi2ZD7QR4tyR_0QmfpXOZuiteNpFU # email
     - keybase-site-verification=PJ3ywix5C5Hnd6Fkt0GzQGKSjbKy_YghlgAGBCf03fM
     - v=spf1 include:_mailcust.gandi.net ?all
 imap:
