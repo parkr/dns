@@ -7,12 +7,14 @@
     value: parkr.github.io.
   - type: MX
     values:
+    - exchange: ASPMX.L.GOOGLE.COM.
+      preference: 1
     - exchange: ALT1.ASPMX.L.GOOGLE.COM.
       preference: 5
     - exchange: ALT2.ASPMX.L.GOOGLE.COM.
       preference: 5
     - exchange: ALT3.ASPMX.L.GOOGLE.COM.
-      preference: 1
+      preference: 10
     - exchange: ALT4.ASPMX.L.GOOGLE.COM.
       preference: 10
   - type: TXT
