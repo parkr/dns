@@ -4,10 +4,10 @@
       cloudflare:
         proxied: false
     type: ALIAS
-    value: parkr.github.io.
+    value: beavan.parkermakes.tools.
 www:
   octodns:
     cloudflare:
       proxied: false
   type: CNAME
-  value: parkr.github.io.
+  value: beavan.parkermakes.tools.
