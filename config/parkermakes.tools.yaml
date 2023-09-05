@@ -22,7 +22,7 @@
 _acme-challenge.sink5:
   ttl: 10
   type: TXT
-  value: 9iEQc56_A1EhEKRz8xsl1P9LN_U73ZBxFQ33-PUizDo
+  value: F6cuSeoqzCUl0hgRD7KB0xcSjXHzb6-5c0rM00R203k
 baymax:
   octodns:
     cloudflare:
