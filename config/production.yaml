@@ -46,8 +46,3 @@ zones:
       - config
     targets:
       - cloudflare
-  parkers.photos.:
-    sources:
-      - config
-    targets:
-      - cloudflare
