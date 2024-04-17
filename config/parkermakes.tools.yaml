@@ -52,6 +52,12 @@ email:
       proxied: true
   type: CNAME
   value: mailgun.org.
+'humans.bx':
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: baymax.whale-chickadee.ts.net.
 link:
   octodns:
     cloudflare:
@@ -72,7 +78,19 @@ sink5:
     cloudflare:
       proxied: false
   type: A
-  value: 10.0.1.53
+  value: twnel.parkermakes.tools.
+'skylark.bn:
+  octodns:
+    cloudflare:
+      proxied: false
+  type: A
+  value: beavan.whale-chickadee.ts.net.
+'visuals.bn:
+  octodns:
+    cloudflare:
+      proxied: false
+  type: A
+  value: beavan.whale-chickadee.ts.net.
 www:
   octodns:
     cloudflare:
