@@ -75,13 +75,13 @@ sink5:
       proxied: false
   type: A
   value: twnel.parkermakes.tools.
-'skylark.bn:
+'skylark.bn':
   octodns:
     cloudflare:
       proxied: false
   type: CNAME
   value: beavan.whale-chickadee.ts.net.
-'visuals.bn:
+'visuals.bn':
   octodns:
     cloudflare:
       proxied: false
