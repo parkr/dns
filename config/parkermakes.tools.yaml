@@ -19,12 +19,6 @@
       proxied: false
   type: CNAME
   value: parkermakes.tools.
-baymax:
-  octodns:
-    cloudflare:
-      proxied: false
-  type: A
-  value: 10.0.1.14
 beavan:
 - octodns:
     cloudflare:
@@ -36,12 +30,6 @@ beavan:
       proxied: false
   type: AAAA
   value: 2001:19f0:ac01:1187:5400:04ff:fe6b:c01b
-delwyn:
-  octodns:
-    cloudflare:
-      proxied: false
-  type: A
-  value: 10.0.1.4
 email:
   octodns:
     cloudflare:
