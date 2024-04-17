@@ -73,8 +73,8 @@ sink5:
   octodns:
     cloudflare:
       proxied: false
-  type: A
-  value: twnel.parkermakes.tools.
+  type: CNAME
+  value: twnel.whale-chickadee.ts.net.
 'skylark.bn':
   octodns:
     cloudflare:
