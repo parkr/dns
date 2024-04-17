@@ -51,7 +51,7 @@ email:
 'humans.bx':
   octodns:
     cloudflare:
-      proxied: true
+      proxied: false
   type: CNAME
   value: baymax.whale-chickadee.ts.net.
 link:
