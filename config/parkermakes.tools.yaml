@@ -79,13 +79,13 @@ sink5:
   octodns:
     cloudflare:
       proxied: false
-  type: A
+  type: CNAME
   value: beavan.whale-chickadee.ts.net.
 'visuals.bn:
   octodns:
     cloudflare:
       proxied: false
-  type: A
+  type: CNAME
   value: beavan.whale-chickadee.ts.net.
 www:
   octodns:
