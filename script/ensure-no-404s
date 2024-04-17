@@ -3,10 +3,10 @@
 set -e
 set -o pipefail
 
-TEMPORARY_ALLOWLIST='^(radar|ping)\.'
+TEMPORARY_ALLOWLIST='^(ping)\.'
 
 python3 script/list-domains.py | \
-  egrep '^(CNAME|ALIAS|A)' | egrep -v '10\.0\.1' | egrep -v '(baymax|delwyn)\.' | \
+  egrep '^(CNAME|ALIAS|A)' | egrep -v '10\.0\.1' | egrep -v '(baymax|delwyn)\.' | egrep -v '\.ts\.net$' | \
   awk '{print $2}' | sort | uniq | \
   egrep -v '^(imap|smtp|pop|webmail|email|\*)\.' | \
   egrep -v "$TEMPORARY_ALLOWLIST" | \

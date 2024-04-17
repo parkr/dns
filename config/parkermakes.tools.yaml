@@ -19,10 +19,6 @@
       proxied: false
   type: CNAME
   value: parkermakes.tools.
-_acme-challenge.sink5:
-  ttl: 10
-  type: TXT
-  value: F6cuSeoqzCUl0hgRD7KB0xcSjXHzb6-5c0rM00R203k
 baymax:
   octodns:
     cloudflare:
@@ -55,7 +51,7 @@ email:
 'humans.bx':
   octodns:
     cloudflare:
-      proxied: true
+      proxied: false
   type: CNAME
   value: baymax.whale-chickadee.ts.net.
 link:
@@ -67,29 +63,23 @@ link:
 mailo._domainkey:
   type: TXT
   value: k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDJn9zyOB7wJpYT9INfMOBTv9jys6F6dEFz7yLf9uWiRZE3hPdTkf5xbH+CE9ofKyWAvS7oVl/0Ic7xN27ui4F8aUrTH4IGuqO3qpaGP4Ev0braWfQAlk69nJC/wsto6uFS5pZoWgEhJfP3gxs2OXKunFR17s8IWUYfAoBsJ14ACwIDAQAB
-radar:
-  octodns:
-    cloudflare:
-      proxied: false
-  type: CNAME
-  value: beavan.parkermakes.tools.
 sink5:
   octodns:
     cloudflare:
       proxied: false
-  type: A
-  value: twnel.parkermakes.tools.
-'skylark.bn:
+  type: CNAME
+  value: twnel.whale-chickadee.ts.net.
+'skylark.bn':
   octodns:
     cloudflare:
       proxied: false
-  type: A
+  type: CNAME
   value: beavan.whale-chickadee.ts.net.
-'visuals.bn:
+'visuals.bn':
   octodns:
     cloudflare:
       proxied: false
-  type: A
+  type: CNAME
   value: beavan.whale-chickadee.ts.net.
 www:
   octodns:
