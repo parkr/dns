@@ -48,6 +48,12 @@ email:
       proxied: false
   type: CNAME
   value: baymax.whale-chickadee.ts.net.
+'jk.bx':
+  octodns:
+    cloudflare:
+      proxied: false
+  type: CNAME
+  value: baymax.whale-chickadee.ts.net.
 link:
   octodns:
     cloudflare:
@@ -57,6 +63,18 @@ link:
 mailo._domainkey:
   type: TXT
   value: k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDJn9zyOB7wJpYT9INfMOBTv9jys6F6dEFz7yLf9uWiRZE3hPdTkf5xbH+CE9ofKyWAvS7oVl/0Ic7xN27ui4F8aUrTH4IGuqO3qpaGP4Ev0braWfQAlk69nJC/wsto6uFS5pZoWgEhJfP3gxs2OXKunFR17s8IWUYfAoBsJ14ACwIDAQAB
+'mev.bx':
+  octodns:
+    cloudflare:
+      proxied: false
+  type: CNAME
+  value: baymax.whale-chickadee.ts.net.
+'qb.bx':
+  octodns:
+    cloudflare:
+      proxied: false
+  type: CNAME
+  value: baymax.whale-chickadee.ts.net.
 sink5:
   octodns:
     cloudflare:
@@ -69,6 +87,12 @@ sink5:
       proxied: false
   type: CNAME
   value: beavan.whale-chickadee.ts.net.
+'tev.bx':
+  octodns:
+    cloudflare:
+      proxied: false
+  type: CNAME
+  value: baymax.whale-chickadee.ts.net.
 'visuals.bn':
   octodns:
     cloudflare:
