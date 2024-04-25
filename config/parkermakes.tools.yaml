@@ -19,6 +19,12 @@
       proxied: false
   type: CNAME
   value: parkermakes.tools.
+'archive.bx':
+  octodns:
+    cloudflare:
+      proxied: false
+  type: CNAME
+  value: baymax.whale-chickadee.ts.net.
 beavan:
 - octodns:
     cloudflare:
