@@ -48,6 +48,12 @@ email:
       proxied: false
   type: CNAME
   value: baymax.whale-chickadee.ts.net.
+'home.bx':
+  octodns:
+    cloudflare:
+      proxied: false
+  type: CNAME
+  value: baymax.whale-chickadee.ts.net.
 'humans.bx':
   octodns:
     cloudflare:
