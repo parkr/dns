@@ -42,6 +42,12 @@ email:
       proxied: true
   type: CNAME
   value: mailgun.org.
+'cloud.bx':
+  octodns:
+    cloudflare:
+      proxied: false
+  type: CNAME
+  value: baymax.whale-chickadee.ts.net.
 'feed.bx':
   octodns:
     cloudflare:
