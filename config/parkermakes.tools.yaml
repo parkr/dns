@@ -36,18 +36,18 @@ beavan:
       proxied: false
   type: AAAA
   value: 2001:19f0:ac01:1187:5400:04ff:fe6b:c01b
-email:
-  octodns:
-    cloudflare:
-      proxied: true
-  type: CNAME
-  value: mailgun.org.
 'cloud.bx':
   octodns:
     cloudflare:
       proxied: false
   type: CNAME
   value: baymax.whale-chickadee.ts.net.
+email:
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: mailgun.org.
 'feed.bx':
   octodns:
     cloudflare:
