@@ -93,6 +93,12 @@ mailo._domainkey:
       proxied: false
   type: CNAME
   value: baymax.whale-chickadee.ts.net.
+'po.bx':
+  octodns:
+    cloudflare:
+      proxied: false
+  type: CNAME
+  value: baymax.whale-chickadee.ts.net.
 'qb.bx':
   octodns:
     cloudflare:
