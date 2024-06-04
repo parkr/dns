@@ -36,11 +36,6 @@ zones:
       - config
     targets:
       - cloudflare
-  parkermoore.site.:
-    sources:
-      - config
-    targets:
-      - cloudflare
   parker.codes.:
     sources:
       - config
