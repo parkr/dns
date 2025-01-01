@@ -19,6 +19,12 @@
       proxied: false
   type: CNAME
   value: parkermakes.tools.
+aneirin:
+- octodns:
+    cloudflare:
+      proxied: false
+  type: A
+  value: 45.63.87.232
 beavan:
 - octodns:
     cloudflare:
