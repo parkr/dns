@@ -4,7 +4,7 @@
       cloudflare:
         proxied: false
     type: ALIAS
-    value: beavan.parkermakes.tools.
+    value: aneirin.parkermakes.tools.
   - type: MX
     values:
     - exchange: mxa.mailgun.org.
