@@ -25,17 +25,6 @@ aneirin:
       proxied: false
   type: A
   value: 45.63.87.232
-beavan:
-- octodns:
-    cloudflare:
-      proxied: false
-  type: A
-  value: 45.32.132.63
-# - octodns:
-#     cloudflare:
-#       proxied: false
-#   type: AAAA
-#   value: 2001:19f0:ac01:1187:5400:04ff:fe6b:c01b
 email:
   octodns:
     cloudflare:
