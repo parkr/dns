@@ -25,6 +25,12 @@ aneirin:
       proxied: false
   type: A
   value: 45.63.87.232
+elidur:
+- octodns:
+    cloudflare:
+      proxied: false
+  type: A
+  value: 40.160.143.29
 email:
   octodns:
     cloudflare:
