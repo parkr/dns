@@ -46,7 +46,7 @@ ping:
     cloudflare:
       proxied: false
   type: CNAME
-  value: aneirin.parkermakes.tools.
+  value: elidur.parkermakes.tools.
 recipes:
   octodns:
     cloudflare:
