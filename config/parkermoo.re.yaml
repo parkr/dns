@@ -28,7 +28,7 @@ gossip:
     cloudflare:
       proxied: false
   type: CNAME
-  value: aneirin.parkermakes.tools.
+  value: elidur.parkermakes.tools.
 irc:
   octodns:
     cloudflare:
