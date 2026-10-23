@@ -52,6 +52,12 @@ sink5:
       proxied: false
   type: CNAME
   value: twnel.whale-chickadee.ts.net.
+thepod:
+  octodns:
+    cloudflare:
+      proxied: false
+  type: CNAME
+  value: elidur.parkermakes.tools.
 www:
   octodns:
     cloudflare:
