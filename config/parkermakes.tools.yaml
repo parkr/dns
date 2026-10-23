@@ -37,6 +37,12 @@ email:
       proxied: true
   type: CNAME
   value: mailgun.org.
+klaud:
+  octodns:
+    cloudflare:
+      proxied: false
+  type: CNAME
+  value: elidur.parkermakes.tools.
 link:
   octodns:
     cloudflare:
