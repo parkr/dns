@@ -19,18 +19,6 @@
       proxied: false
   type: CNAME
   value: parkermakes.tools.
-'*.an':
-  octodns:
-    cloudflare:
-      proxied: false
-  type: CNAME
-  value: aneirin.parkermakes.tools.
-aneirin:
-- octodns:
-    cloudflare:
-      proxied: false
-  type: A
-  value: 45.63.87.232
 elidur:
 - octodns:
     cloudflare:
