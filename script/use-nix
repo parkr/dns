@@ -1,0 +1,6 @@
+#!/bin/sh
+# Sourced by other scripts: re-run the caller inside the flake's dev shell
+# unless octodns is already on PATH (`nix develop`, direnv, CI).
+if ! command -v octodns-sync >/dev/null 2>&1; then
+  exec nix develop --command "$0" "$@"
+fi

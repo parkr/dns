@@ -1,0 +1,20 @@
+on:
+  schedule:
+    - cron: "0 11 * * 1" # Mondays, alongside Dependabot's 11:00 run
+  workflow_dispatch:
+
+name: Update flake.lock
+jobs:
+  update:
+    name: nix flake update
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+    - uses: actions/checkout@v7
+    - uses: cachix/install-nix-action@v32
+    - uses: DeterminateSystems/update-flake-lock@v29
+      with:
+        pr-title: "Update flake.lock"
+        pr-reviewers: parkr

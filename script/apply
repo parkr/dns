@@ -4,6 +4,6 @@ set -e
 
 . script/provider-credentials
 
-octodns sync \
-    --config=config/production.yaml \
+octodns-sync \
+    --config-file=config/production.yaml \
     "$@"
