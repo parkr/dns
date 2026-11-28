@@ -6,7 +6,7 @@ set -e
 
 for zone in ${ZONES}; do
     echo "Processing zone $zone."
-    octodns dump \
+    octodns-dump \
       --config-file "$(pwd)/config/production.yaml" \
       --output-dir "$(pwd)/config" \
       "$zone." cloudflare \

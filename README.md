@@ -18,6 +18,18 @@ www:
 This will create a CNAME record at `www.<your-zone>` which points to
 `parkr.github.io`. Easy, huh?
 
+### Tooling
+
+octoDNS comes from [Nix](https://nixos.org): `flake.nix` pins it and the
+Cloudflare provider, and `flake.lock` is the one version pin for both your
+machine (Linux amd64 or macOS arm64) and CI. The scripts enter the dev shell
+on their own if `octodns-sync` isn't already on your `PATH`; run
+`nix develop` to get a shell with it yourself.
+
+`script/provider-credentials` reads your Cloudflare credentials from
+`~/.config/cloudflare/parker-{token,email}` unless `CLOUDFLARE_TOKEN` and
+`CLOUDFLARE_EMAIL` are already set.
+
 ### Testing
 
 Before applying your change, test it:

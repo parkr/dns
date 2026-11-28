@@ -1,11 +1,5 @@
 #!/bin/sh
 
-. script/provider-credentials
+. script/use-nix
 
-cwd="$(pwd)"
-
-docker run -it --rm \
-  -v "$cwd":"$cwd" \
-  -w "$cwd" \
-  "$DOCKER_IMAGE" \
-  python "$cwd/script/list-domains.py"
+exec python3 script/list-domains.py

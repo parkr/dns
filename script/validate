@@ -4,6 +4,6 @@ set -e
 
 . script/provider-credentials
 
-octodns validate \
+octodns-validate \
   --config-file ./config/test.yaml \
   --debug

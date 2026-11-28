@@ -6,10 +6,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v7
+    - uses: cachix/install-nix-action@v32
     - name: octodns test
-      uses: ./.github/actions/octodns-cloudflare
       env:
         CLOUDFLARE_EMAIL: ${{ secrets.CLOUDFLARE_EMAIL }}
         CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
-      with:
-        args: octodns-sync --config-file ./config/production.yaml
+      run: nix develop --command octodns-sync --config-file ./config/production.yaml
